@@ -3,7 +3,7 @@
 !.env.example
 
 .streamlit/secrets.toml
-
+backend/stocksai_v2.db
 stocksense.db
 __pycache__/
 *.py[cod]
