@@ -23,7 +23,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
+        "http://127.0.0.1:5173",
+        "https://stock-ai-v2-chi.vercel.app",
+        "https://stock-ai-v2-oft4z2jch-nimal7772.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
